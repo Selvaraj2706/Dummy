@@ -1,0 +1,306 @@
+{
+  "id": "UK_10099_PRBPAUKML01://PRBPAUKML01/dbo/AttrVal/ValStr",
+  "href": "/2/catalog/data/objects/UK_10099_PRBPAUKML01~3a~~2f~~2f~PRBPAUKML01~2f~dbo~2f~AttrVal~2f~ValStr",
+  "nativeId": 61758912,
+  "facts": [
+    {
+      "attributeId": "com.infa.ldm.profiling.infDataDomain",
+      "value": "PolicyRenewalDate,-1,-1,Yes,NA",
+      "readOnly": true,
+      "label": "inferred dataDomain values in CSV format",
+      "description": "Inferred data domains (dataDomain, count, percent, NameMatch, ProximityMatch)",
+      "providerId": "ProfileScanner",
+      "xid": "UK_10099_PRBPAUKML01##dbo#AttrVal#DomainDiscovery",
+      "modifiedBy": "system"
+    },
+    {
+      "attributeId": "core.classType",
+      "value": "com.infa.ldm.relational.Column",
+      "readOnly": true,
+      "label": "classType",
+      "description": "Type of the object",
+      "providerId": "MSSQLServerScanner",
+      "xid": "UK_10099_PRBPAUKML01##PRBPAUKML01#dbo#AttrVal",
+      "modifiedBy": "system"
+    },
+    {
+      "attributeId": "com.infa.ldm.relational.DatatypeScale",
+      "value": "0",
+      "readOnly": true,
+      "label": "Datatype Scale",
+      "description": "",
+      "providerId": "MSSQLServerScanner",
+      "xid": "UK_10099_PRBPAUKML01##PRBPAUKML01#dbo#AttrVal",
+      "modifiedBy": "system"
+    },
+    {
+      "attributeId": "com.infa.ldm.relational.PrimaryKeyColumn",
+      "value": "false",
+      "readOnly": true,
+      "label": "Primary Key Column",
+      "description": "",
+      "providerId": "MSSQLServerScanner",
+      "xid": "UK_10099_PRBPAUKML01##PRBPAUKML01#dbo#AttrVal",
+      "modifiedBy": "system"
+    },
+    {
+      "attributeId": "com.infa.ldm.relational.Identity",
+      "value": "false",
+      "readOnly": true,
+      "label": "Identity",
+      "description": "",
+      "providerId": "MSSQLServerScanner",
+      "xid": "UK_10099_PRBPAUKML01##PRBPAUKML01#dbo#AttrVal",
+      "modifiedBy": "system"
+    },
+    {
+      "attributeId": "com.infa.ldm.bg.associatedTerms",
+      "value": "Agent Email|Agent Full Name|Agent Number|Agent Telephone Number|Claim Inception Date|Claim Number|Claim Reserve Amount|Claim Type Description of Claim|Legal Person Email|Legal Person Name|Legal Person Telephone Number|Policy Number|Policy Payment Method|Policy Premium|Policy Renewal Date|Policy Type Name",
+      "projectedFrom": "BG_Custom_Glossary_UK://BG/Term/728499878467425",
+      "readOnly": true,
+      "label": "Title (Informatica Business Glossary)",
+      "description": "Associated Business Glossary Terms",
+      "providerId": "enrichment",
+      "xid": "#Enrich#UK_10099_PRBPAUKML01://PRBPAUKML01/dbo/AttrVal/ValStr",
+      "modifiedBy": "Native\\Edcadmin"
+    },
+    {
+      "attributeId": "core.resourceType",
+      "value": "Microsoft SQL Server",
+      "readOnly": true,
+      "label": "Resource Type",
+      "description": "Type of the Resource",
+      "providerId": "MSSQLServerScanner",
+      "xid": "UK_10099_PRBPAUKML01##PRBPAUKML01#dbo#AttrVal",
+      "modifiedBy": "system"
+    },
+    {
+      "attributeId": "com.infa.ldm.relational.Datatype",
+      "value": "nvarchar",
+      "readOnly": true,
+      "label": "Datatype",
+      "description": "",
+      "providerId": "MSSQLServerScanner",
+      "xid": "UK_10099_PRBPAUKML01##PRBPAUKML01#dbo#AttrVal",
+      "modifiedBy": "system"
+    },
+    {
+      "attributeId": "core.resourceName",
+      "value": "UK_10099_PRBPAUKML01",
+      "readOnly": true,
+      "label": "Resource Name",
+      "description": "Name of the Resource",
+      "providerId": "MSSQLServerScanner",
+      "xid": "UK_10099_PRBPAUKML01##PRBPAUKML01#dbo#AttrVal",
+      "modifiedBy": "system"
+    },
+    {
+      "attributeId": "core.name",
+      "value": "ValStr",
+      "readOnly": true,
+      "label": "name",
+      "description": "Name of the object",
+      "providerId": "MSSQLServerScanner",
+      "xid": "UK_10099_PRBPAUKML01##PRBPAUKML01#dbo#AttrVal",
+      "modifiedBy": "system"
+    },
+    {
+      "attributeId": "com.infa.ldm.relational.Nullable",
+      "value": "true",
+      "readOnly": true,
+      "label": "Nullable",
+      "description": "",
+      "providerId": "MSSQLServerScanner",
+      "xid": "UK_10099_PRBPAUKML01##PRBPAUKML01#dbo#AttrVal",
+      "modifiedBy": "system"
+    },
+    {
+      "attributeId": "core.lastModified",
+      "value": "2021-11-11T11:44:58.800Z",
+      "readOnly": true,
+      "label": "Last Modified",
+      "description": "Last time the object was modified.",
+      "providerId": "system",
+      "xid": "n/a",
+      "modifiedBy": "n/a"
+    },
+    {
+      "attributeId": "com.infa.ldm.profiling.DataDomainColumnAccepted",
+      "value": "PolicyRenewalDate",
+      "projectedFrom": "DataDomain://PolicyRenewalDate",
+      "readOnly": true,
+      "label": "Accepted data domains",
+      "description": "List of accepted data domains",
+      "providerId": "ProfileScanner",
+      "xid": "UK_10099_PRBPAUKML01##dbo#AttrVal#DomainDiscovery",
+      "modifiedBy": "system"
+    },
+    {
+      "attributeId": "com.infa.ldm.profiling.DataDomainColumnAll",
+      "value": "PolicyRenewalDate",
+      "projectedFrom": "DataDomain://PolicyRenewalDate",
+      "readOnly": true,
+      "label": "Inferred and accepted data domains.",
+      "description": "List of inferred and accepted data domains.",
+      "providerId": "ProfileScanner",
+      "xid": "UK_10099_PRBPAUKML01##dbo#AttrVal#DomainDiscovery",
+      "modifiedBy": "system"
+    },
+    {
+      "attributeId": "com.infa.ldm.relational.NativeType",
+      "value": "COLUMN",
+      "readOnly": true,
+      "label": "Native Type",
+      "description": "",
+      "providerId": "MSSQLServerScanner",
+      "xid": "UK_10099_PRBPAUKML01##PRBPAUKML01#dbo#AttrVal",
+      "modifiedBy": "system"
+    },
+    {
+      "attributeId": "com.infa.ldm.relational.DatatypeLength",
+      "value": "255",
+      "readOnly": true,
+      "label": "Datatype Length",
+      "description": "",
+      "providerId": "MSSQLServerScanner",
+      "xid": "UK_10099_PRBPAUKML01##PRBPAUKML01#dbo#AttrVal",
+      "modifiedBy": "system"
+    },
+    {
+      "attributeId": "com.infa.ldm.relational.Position",
+      "value": "4",
+      "readOnly": true,
+      "label": "Position",
+      "description": "",
+      "providerId": "MSSQLServerScanner",
+      "xid": "UK_10099_PRBPAUKML01##PRBPAUKML01#dbo#AttrVal",
+      "modifiedBy": "system"
+    }
+  ],
+  "srcLinks": [
+    {
+      "id": "DataDomain://PolicyRenewalDate",
+      "href": "/2/catalog/data/objects/DataDomain~3a~~2f~~2f~PolicyRenewalDate",
+      "readOnly": true,
+      "association": "com.infa.ldm.profiling.DataDomainColumnAccepted",
+      "linkProperties": [
+        {
+          "attributeId": "com.infa.ldm.profiling.linkOrigin",
+          "value": "profilescanner",
+          "label": "link origin"
+        },
+        {
+          "attributeId": "com.infa.ldm.profiling.linkCreatedBy",
+          "value": "system",
+          "label": "link created by"
+        },
+        {
+          "attributeId": "core.targetAttribute",
+          "value": "com.infa.ldm.profiling.DataDomainColumnAccepted",
+          "label": "Target Attribute"
+        },
+        {
+          "attributeId": "com.infa.ldm.profiling.linkCreationTime",
+          "value": "2021-11-10T14:22:00.653Z",
+          "label": "link Creation Time"
+        }
+      ],
+      "name": "PolicyRenewalDate",
+      "classType": "com.infa.ldm.profiling.DataDomain",
+      "providerId": "ProfileScanner",
+      "xid": "UK_10099_PRBPAUKML01##dbo#AttrVal#DomainDiscovery",
+      "modifiedBy": "system"
+    },
+    {
+      "id": "DataDomain://PolicyRenewalDate",
+      "href": "/2/catalog/data/objects/DataDomain~3a~~2f~~2f~PolicyRenewalDate",
+      "readOnly": true,
+      "association": "com.infa.ldm.profiling.DataDomainColumnAll",
+      "linkProperties": [
+        {
+          "attributeId": "com.infa.ldm.profiling.linkOrigin",
+          "value": "profilescanner",
+          "label": "link origin"
+        },
+        {
+          "attributeId": "com.infa.ldm.profiling.linkCreatedBy",
+          "value": "system",
+          "label": "link created by"
+        },
+        {
+          "attributeId": "core.targetAttribute",
+          "value": "com.infa.ldm.profiling.DataDomainColumnAll",
+          "label": "Target Attribute"
+        },
+        {
+          "attributeId": "com.infa.ldm.profiling.linkCreationTime",
+          "value": "2021-11-10T14:22:00.653Z",
+          "label": "link Creation Time"
+        }
+      ],
+      "name": "PolicyRenewalDate",
+      "classType": "com.infa.ldm.profiling.DataDomain",
+      "providerId": "ProfileScanner",
+      "xid": "UK_10099_PRBPAUKML01##dbo#AttrVal#DomainDiscovery",
+      "modifiedBy": "system"
+    },
+    {
+      "id": "BG_Custom_Glossary_UK://BG/Term/728499878467425",
+      "href": "/2/catalog/data/objects/BG_Custom_Glossary_UK~3a~~2f~~2f~BG~2f~Term~2f~728499878467425",
+      "readOnly": true,
+      "association": "com.infa.ldm.bg.governedBgDescription",
+      "linkProperties": [
+        {
+          "attributeId": "core.targetAttribute",
+          "value": "com.infa.ldm.bg.governedBgDescription",
+          "label": "Target Attribute"
+        }
+      ],
+      "name": "Agent Email|Agent Full Name|Agent Number|Agent Telephone Number|Claim Inception Date|Claim Number|Claim Reserve Amount|Claim Type Description of Claim|Legal Person Email|Legal Person Name|Legal Person Telephone Number|Policy Number|Policy Payment Method|Policy Premium|Policy Renewal Date|Policy Type Name",
+      "classType": "com.infa.ldm.bg.BGTerm",
+      "providerId": "enrichment",
+      "xid": "#Enrich#UK_10099_PRBPAUKML01://PRBPAUKML01/dbo/AttrVal/ValStr",
+      "modifiedBy": "Native\\Edcadmin"
+    },
+    {
+      "id": "UK_10099_PRBPAUKML01://PRBPAUKML01/dbo/AttrVal",
+      "href": "/2/catalog/data/objects/UK_10099_PRBPAUKML01~3a~~2f~~2f~PRBPAUKML01~2f~dbo~2f~AttrVal",
+      "readOnly": true,
+      "association": "com.infa.ldm.relational.TableColumn",
+      "linkProperties": [],
+      "name": "AttrVal",
+      "classType": "com.infa.ldm.relational.Table",
+      "providerId": "MSSQLServerScanner",
+      "xid": "UK_10099_PRBPAUKML01##PRBPAUKML01#dbo#AttrVal",
+      "modifiedBy": "system"
+    },
+    {
+      "id": "BG_Custom_Glossary_UK://BG/Term/728499878467425",
+      "href": "/2/catalog/data/objects/BG_Custom_Glossary_UK~3a~~2f~~2f~BG~2f~Term~2f~728499878467425",
+      "readOnly": true,
+      "association": "com.infa.ldm.bg.associatedTerms",
+      "linkProperties": [
+        {
+          "attributeId": "core.targetAttribute",
+          "value": "com.infa.ldm.bg.associatedTerms",
+          "label": "Target Attribute"
+        }
+      ],
+      "name": "Agent Email|Agent Full Name|Agent Number|Agent Telephone Number|Claim Inception Date|Claim Number|Claim Reserve Amount|Claim Type Description of Claim|Legal Person Email|Legal Person Name|Legal Person Telephone Number|Policy Number|Policy Payment Method|Policy Premium|Policy Renewal Date|Policy Type Name",
+      "classType": "com.infa.ldm.bg.BGTerm",
+      "providerId": "enrichment",
+      "xid": "#Enrich#UK_10099_PRBPAUKML01://PRBPAUKML01/dbo/AttrVal/ValStr",
+      "modifiedBy": "Native\\Edcadmin"
+    }
+  ],
+  "dstLinks": [],
+  "businessTerms": [
+    {
+      "id": "BG_Custom_Glossary_UK://BG/Term/728499878467425",
+      "readOnly": false,
+      "href": "/2/catalog/data/objects/BG_Custom_Glossary_UK~3a~~2f~~2f~BG~2f~Term~2f~728499878467425",
+      "name": "Agent Email|Agent Full Name|Agent Number|Agent Telephone Number|Claim Inception Date|Claim Number|Claim Reserve Amount|Claim Type Description of Claim|Legal Person Email|Legal Person Name|Legal Person Telephone Number|Policy Number|Policy Payment Method|Policy Premium|Policy Renewal Date|Policy Type Name",
+      "classType": "com.infa.ldm.bg.BGTerm"
+    }
+  ]
+}
