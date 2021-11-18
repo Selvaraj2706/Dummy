@@ -1,0 +1,615 @@
+{
+  "items": [
+    {
+      "id": "UK_8200_Extranet://ExtraNet/dbo/tbl_Agents/Net_Agency_Name",
+      "href": "/2/catalog/data/objects/UK_8200_Extranet~3a~~2f~~2f~ExtraNet~2f~dbo~2f~tbl_Agents~2f~Net_Agency_Name",
+      "nativeId": "61800BFFD9401DD293432979",
+      "facts": [
+        {
+          "attributeId": "core.classType",
+          "value": "com.infa.ldm.relational.Column",
+          "label": "classType",
+          "description": "Type of the object",
+          "providerId": "MSSQLServerScanner",
+          "xid": "UK_8200_Extranet##ExtraNet#dbo#tbl_Agents",
+          "modifiedBy": "system",
+          "readOnly": true
+        },
+        {
+          "attributeId": "core.lastModified",
+          "value": "2021-11-10T11:58:47.815Z",
+          "label": "Last Modified",
+          "description": "Last time the object was modified.",
+          "providerId": "system",
+          "xid": "n/a",
+          "modifiedBy": "n/a",
+          "readOnly": true
+        },
+        {
+          "attributeId": "com.infa.appmodels.ldm.LDM_e1630221_a163_485b_a03e_7e60f58579cb",
+          "value": "10.64.57.20",
+          "label": "Database IP Address",
+          "description": "",
+          "providerId": "resource-attribute-propagation",
+          "xid": "#Enrich#UK_8200_Extranet://UK_8200_Extranet",
+          "modifiedBy": "Native\\EdcAdmin",
+          "projectedFrom": "BG_DL_Custom://Category/1833995890167964",
+          "readOnly": false
+        },
+        {
+          "attributeId": "com.infa.appmodels.ldm.LDM_e1630221_a163_485b_a03e_7e60f58579cb",
+          "value": "10.64.57.20",
+          "label": "Database IP Address",
+          "description": "",
+          "providerId": "resource-attribute-propagation",
+          "xid": "#Enrich#UK_8200_Extranet://UK_8200_Extranet",
+          "modifiedBy": "Native\\EdcAdmin",
+          "projectedFrom": "BG_DL_Custom://Category/1833995890167964",
+          "readOnly": false
+        },
+        {
+          "attributeId": "com.infa.appmodels.ldm.LDM_3108ccc7_7f85_49dc_8970_dc93259245bb",
+          "value": "Microsoft SQL",
+          "label": "Database Technology Type",
+          "description": "",
+          "providerId": "resource-attribute-propagation",
+          "xid": "#Enrich#UK_8200_Extranet://UK_8200_Extranet",
+          "modifiedBy": "Native\\EdcAdmin",
+          "projectedFrom": "BG_DL_Custom://Category/440402145738201",
+          "readOnly": false
+        },
+        {
+          "attributeId": "com.infa.appmodels.ldm.LDM_7c1e126d_ab78_4b04_8251_d9672bf79380",
+          "value": "606286-UAT-DB1",
+          "label": "Database Host Name",
+          "description": "",
+          "providerId": "resource-attribute-propagation",
+          "xid": "#Enrich#UK_8200_Extranet://UK_8200_Extranet",
+          "modifiedBy": "Native\\EdcAdmin",
+          "projectedFrom": "BG_DL_Custom://Category/1622666278588359",
+          "readOnly": false
+        },
+        {
+          "attributeId": "com.infa.appmodels.ldm.LDM_d52f3e30_26c9_4b13_8ff0_315ce96dee58",
+          "value": "8200",
+          "label": "EAI_Code",
+          "description": "",
+          "providerId": "resource-attribute-propagation",
+          "xid": "#Enrich#UK_8200_Extranet://UK_8200_Extranet",
+          "modifiedBy": "Native\\EdcAdmin",
+          "projectedFrom": "BG_DL_Custom://Category/1128289703440031",
+          "readOnly": false
+        },
+        {
+          "attributeId": "com.infa.ldm.profiling.DataDomainColumnAccepted",
+          "value": "AgentFullName",
+          "label": "Accepted data domains",
+          "description": "List of accepted data domains",
+          "providerId": "ProfileScanner",
+          "xid": "UK_8200_Extranet##dbo#tbl_Agents#DomainDiscovery",
+          "modifiedBy": "system",
+          "projectedFrom": "DataDomain://AgentFullName",
+          "readOnly": true
+        },
+        {
+          "attributeId": "com.infa.ldm.profiling.DataDomainColumnInferred",
+          "value": "Age",
+          "label": "Inferred data domains",
+          "description": "List of inferred data domains",
+          "providerId": "ProfileScanner",
+          "xid": "UK_8200_Extranet##dbo#tbl_Agents#DomainDiscovery",
+          "modifiedBy": "system",
+          "projectedFrom": "DataDomain://Age",
+          "readOnly": true
+        },
+        {
+          "attributeId": "com.infa.ldm.profiling.DataDomainColumnInferred",
+          "value": "CompanyName",
+          "label": "Inferred data domains",
+          "description": "List of inferred data domains",
+          "providerId": "ProfileScanner",
+          "xid": "UK_8200_Extranet##dbo#tbl_Agents#DomainDiscovery",
+          "modifiedBy": "system",
+          "projectedFrom": "DataDomain://CompanyName",
+          "readOnly": true
+        },
+        {
+          "attributeId": "com.infa.ldm.profiling.infDataDomain",
+          "value": "CompanyName,-1,-1,Yes,NA",
+          "label": "inferred dataDomain values in CSV format",
+          "description": "Inferred data domains (dataDomain, count, percent, NameMatch, ProximityMatch)",
+          "providerId": "ProfileScanner",
+          "xid": "UK_8200_Extranet##dbo#tbl_Agents#DomainDiscovery",
+          "modifiedBy": "system",
+          "readOnly": true
+        },
+        {
+          "attributeId": "com.infa.ldm.profiling.infDataDomain",
+          "value": "Age,-1,-1,Yes,NA",
+          "label": "inferred dataDomain values in CSV format",
+          "description": "Inferred data domains (dataDomain, count, percent, NameMatch, ProximityMatch)",
+          "providerId": "ProfileScanner",
+          "xid": "UK_8200_Extranet##dbo#tbl_Agents#DomainDiscovery",
+          "modifiedBy": "system",
+          "readOnly": true
+        },
+        {
+          "attributeId": "com.infa.ldm.profiling.infDataDomain",
+          "value": "AgentFullName,-1,-1,Yes,NA",
+          "label": "inferred dataDomain values in CSV format",
+          "description": "Inferred data domains (dataDomain, count, percent, NameMatch, ProximityMatch)",
+          "providerId": "ProfileScanner",
+          "xid": "UK_8200_Extranet##dbo#tbl_Agents#DomainDiscovery",
+          "modifiedBy": "system",
+          "readOnly": true
+        },
+        {
+          "attributeId": "com.infa.ldm.profiling.DataDomainColumnAll",
+          "value": "Age",
+          "label": "Inferred and accepted data domains.",
+          "description": "List of inferred and accepted data domains.",
+          "providerId": "ProfileScanner",
+          "xid": "UK_8200_Extranet##dbo#tbl_Agents#DomainDiscovery",
+          "modifiedBy": "system",
+          "projectedFrom": "DataDomain://Age",
+          "readOnly": true
+        },
+        {
+          "attributeId": "com.infa.ldm.profiling.DataDomainColumnAll",
+          "value": "CompanyName",
+          "label": "Inferred and accepted data domains.",
+          "description": "List of inferred and accepted data domains.",
+          "providerId": "ProfileScanner",
+          "xid": "UK_8200_Extranet##dbo#tbl_Agents#DomainDiscovery",
+          "modifiedBy": "system",
+          "projectedFrom": "DataDomain://CompanyName",
+          "readOnly": true
+        },
+        {
+          "attributeId": "com.infa.ldm.profiling.DataDomainColumnAll",
+          "value": "AgentFullName",
+          "label": "Inferred and accepted data domains.",
+          "description": "List of inferred and accepted data domains.",
+          "providerId": "ProfileScanner",
+          "xid": "UK_8200_Extranet##dbo#tbl_Agents#DomainDiscovery",
+          "modifiedBy": "system",
+          "projectedFrom": "DataDomain://AgentFullName",
+          "readOnly": true
+        },
+        {
+          "attributeId": "com.infa.ldm.relational.DatatypeScale",
+          "value": "0",
+          "label": "Datatype Scale",
+          "description": "",
+          "providerId": "MSSQLServerScanner",
+          "xid": "UK_8200_Extranet##ExtraNet#dbo#tbl_Agents",
+          "modifiedBy": "system",
+          "readOnly": true
+        },
+        {
+          "attributeId": "com.infa.ldm.relational.Position",
+          "value": "7",
+          "label": "Position",
+          "description": "",
+          "providerId": "MSSQLServerScanner",
+          "xid": "UK_8200_Extranet##ExtraNet#dbo#tbl_Agents",
+          "modifiedBy": "system",
+          "readOnly": true
+        },
+        {
+          "attributeId": "com.infa.ldm.relational.Identity",
+          "value": "false",
+          "label": "Identity",
+          "description": "",
+          "providerId": "MSSQLServerScanner",
+          "xid": "UK_8200_Extranet##ExtraNet#dbo#tbl_Agents",
+          "modifiedBy": "system",
+          "readOnly": true
+        },
+        {
+          "attributeId": "com.infa.ldm.relational.NativeType",
+          "value": "COLUMN",
+          "label": "Native Type",
+          "description": "",
+          "providerId": "MSSQLServerScanner",
+          "xid": "UK_8200_Extranet##ExtraNet#dbo#tbl_Agents",
+          "modifiedBy": "system",
+          "readOnly": true
+        },
+        {
+          "attributeId": "com.infa.ldm.relational.PrimaryKeyColumn",
+          "value": "false",
+          "label": "Primary Key Column",
+          "description": "",
+          "providerId": "MSSQLServerScanner",
+          "xid": "UK_8200_Extranet##ExtraNet#dbo#tbl_Agents",
+          "modifiedBy": "system",
+          "readOnly": true
+        },
+        {
+          "attributeId": "com.infa.ldm.relational.Nullable",
+          "value": "true",
+          "label": "Nullable",
+          "description": "",
+          "providerId": "MSSQLServerScanner",
+          "xid": "UK_8200_Extranet##ExtraNet#dbo#tbl_Agents",
+          "modifiedBy": "system",
+          "readOnly": true
+        },
+        {
+          "attributeId": "com.infa.ldm.relational.DatatypeLength",
+          "value": "255",
+          "label": "Datatype Length",
+          "description": "",
+          "providerId": "MSSQLServerScanner",
+          "xid": "UK_8200_Extranet##ExtraNet#dbo#tbl_Agents",
+          "modifiedBy": "system",
+          "readOnly": true
+        },
+        {
+          "attributeId": "com.infa.ldm.relational.Datatype",
+          "value": "varchar",
+          "label": "Datatype",
+          "description": "",
+          "providerId": "MSSQLServerScanner",
+          "xid": "UK_8200_Extranet##ExtraNet#dbo#tbl_Agents",
+          "modifiedBy": "system",
+          "readOnly": true
+        },
+        {
+          "attributeId": "com.infa.ldm.bg.associatedTerms",
+          "value": "Agent Full Name",
+          "label": "Title (Informatica Business Glossary)",
+          "description": "Associated Business Glossary Terms",
+          "providerId": "enrichment",
+          "xid": "#Enrich#UK_8200_Extranet://ExtraNet/dbo/tbl_Agents/Net_Agency_Name",
+          "modifiedBy": "Native\\EdcAdmin",
+          "projectedFrom": "BG_Authorised_Representative://BG/Term/1201836290080362",
+          "readOnly": true
+        },
+        {
+          "attributeId": "core.resourceName",
+          "value": "UK_8200_Extranet",
+          "label": "Resource Name",
+          "description": "Name of the Resource",
+          "providerId": "MSSQLServerScanner",
+          "xid": "UK_8200_Extranet##ExtraNet#dbo#tbl_Agents",
+          "modifiedBy": "system",
+          "readOnly": true
+        },
+        {
+          "attributeId": "core.resourceType",
+          "value": "Microsoft SQL Server",
+          "label": "Resource Type",
+          "description": "Type of the Resource",
+          "providerId": "MSSQLServerScanner",
+          "xid": "UK_8200_Extranet##ExtraNet#dbo#tbl_Agents",
+          "modifiedBy": "system",
+          "readOnly": true
+        },
+        {
+          "attributeId": "core.name",
+          "value": "Net_Agency_Name",
+          "label": "name",
+          "description": "Name of the object",
+          "providerId": "MSSQLServerScanner",
+          "xid": "UK_8200_Extranet##ExtraNet#dbo#tbl_Agents",
+          "modifiedBy": "system",
+          "readOnly": true
+        }
+      ],
+      "srcLinks": [
+        {
+          "id": "DataDomain://AgentFullName",
+          "association": "com.infa.ldm.profiling.DataDomainColumnAccepted",
+          "linkProperties": [
+            {
+              "attributeId": "com.infa.ldm.profiling.linkCreatedBy",
+              "value": "system",
+              "label": "link created by"
+            },
+            {
+              "attributeId": "com.infa.ldm.profiling.linkCreationTime",
+              "value": "2021-09-16T14:47:57.414Z",
+              "label": "link Creation Time"
+            },
+            {
+              "attributeId": "com.infa.ldm.profiling.linkOrigin",
+              "value": "profilescanner",
+              "label": "link origin"
+            },
+            {
+              "attributeId": "core.targetAttribute",
+              "value": "com.infa.ldm.profiling.DataDomainColumnAccepted",
+              "label": "Target Attribute"
+            }
+          ],
+          "providerId": "ProfileScanner",
+          "xid": "UK_8200_Extranet##dbo#tbl_Agents#DomainDiscovery",
+          "modifiedBy": "system",
+          "readOnly": true,
+          "name": "AgentFullName",
+          "classType": "com.infa.ldm.profiling.DataDomain",
+          "href": "/2/catalog/data/objects/DataDomain~3a~~2f~~2f~AgentFullName"
+        },
+        {
+          "id": "UK_8200_Extranet://ExtraNet/dbo/tbl_Agents",
+          "association": "com.infa.ldm.relational.TableColumn",
+          "linkProperties": [],
+          "providerId": "MSSQLServerScanner",
+          "xid": "UK_8200_Extranet##ExtraNet#dbo#tbl_Agents",
+          "modifiedBy": "system",
+          "readOnly": true,
+          "name": "tbl_Agents",
+          "classType": "com.infa.ldm.relational.Table",
+          "href": "/2/catalog/data/objects/UK_8200_Extranet~3a~~2f~~2f~ExtraNet~2f~dbo~2f~tbl_Agents"
+        },
+        {
+          "id": "BG_DL_Custom://Category/1833995890167964",
+          "association": "core.Classification",
+          "linkProperties": [
+            {
+              "attributeId": "core.targetAttribute",
+              "value": "com.infa.appmodels.ldm.LDM_e1630221_a163_485b_a03e_7e60f58579cb",
+              "label": "Target Attribute"
+            }
+          ],
+          "providerId": "resource-attribute-propagation",
+          "xid": "#Enrich#UK_8200_Extranet://UK_8200_Extranet",
+          "modifiedBy": "Native\\EdcAdmin",
+          "readOnly": true,
+          "name": "10.64.57.20",
+          "classType": "com.infa.ldm.bgresource.BG_DL_Custom.Database_IP_AddressClassifier",
+          "href": "/2/catalog/data/objects/BG_DL_Custom~3a~~2f~~2f~Category~2f~1833995890167964"
+        },
+        {
+          "id": "BG_DL_Custom://Category/440402145738201",
+          "association": "core.Classification",
+          "linkProperties": [
+            {
+              "attributeId": "core.targetAttribute",
+              "value": "com.infa.appmodels.ldm.LDM_3108ccc7_7f85_49dc_8970_dc93259245bb",
+              "label": "Target Attribute"
+            }
+          ],
+          "providerId": "resource-attribute-propagation",
+          "xid": "#Enrich#UK_8200_Extranet://UK_8200_Extranet",
+          "modifiedBy": "Native\\EdcAdmin",
+          "readOnly": true,
+          "name": "Microsoft SQL",
+          "classType": "com.infa.ldm.bgresource.BG_DL_Custom.Database_Technology_TypeClassifier",
+          "href": "/2/catalog/data/objects/BG_DL_Custom~3a~~2f~~2f~Category~2f~440402145738201"
+        },
+        {
+          "id": "BG_DL_Custom://Category/1622666278588359",
+          "association": "core.Classification",
+          "linkProperties": [
+            {
+              "attributeId": "core.targetAttribute",
+              "value": "com.infa.appmodels.ldm.LDM_7c1e126d_ab78_4b04_8251_d9672bf79380",
+              "label": "Target Attribute"
+            }
+          ],
+          "providerId": "resource-attribute-propagation",
+          "xid": "#Enrich#UK_8200_Extranet://UK_8200_Extranet",
+          "modifiedBy": "Native\\EdcAdmin",
+          "readOnly": true,
+          "name": "606286-UAT-DB1",
+          "classType": "com.infa.ldm.bgresource.BG_DL_Custom.Database_Host_NameClassifier",
+          "href": "/2/catalog/data/objects/BG_DL_Custom~3a~~2f~~2f~Category~2f~1622666278588359"
+        },
+        {
+          "id": "BG_DL_Custom://Category/1128289703440031",
+          "association": "core.Classification",
+          "linkProperties": [
+            {
+              "attributeId": "core.targetAttribute",
+              "value": "com.infa.appmodels.ldm.LDM_d52f3e30_26c9_4b13_8ff0_315ce96dee58",
+              "label": "Target Attribute"
+            }
+          ],
+          "providerId": "resource-attribute-propagation",
+          "xid": "#Enrich#UK_8200_Extranet://UK_8200_Extranet",
+          "modifiedBy": "Native\\EdcAdmin",
+          "readOnly": true,
+          "name": "8200",
+          "classType": "com.infa.ldm.bgresource.BG_DL_Custom.EAI_CodeClassifier",
+          "href": "/2/catalog/data/objects/BG_DL_Custom~3a~~2f~~2f~Category~2f~1128289703440031"
+        },
+        {
+          "id": "BG_Authorised_Representative://BG/Term/1201836290080362",
+          "association": "com.infa.ldm.bg.associatedTerms",
+          "linkProperties": [
+            {
+              "attributeId": "core.targetAttribute",
+              "value": "com.infa.ldm.bg.associatedTerms",
+              "label": "Target Attribute"
+            }
+          ],
+          "providerId": "enrichment",
+          "xid": "#Enrich#UK_8200_Extranet://ExtraNet/dbo/tbl_Agents/Net_Agency_Name",
+          "modifiedBy": "Native\\EdcAdmin",
+          "readOnly": true,
+          "name": "Agent Full Name",
+          "classType": "com.infa.ldm.bg.BGTerm",
+          "href": "/2/catalog/data/objects/BG_Authorised_Representative~3a~~2f~~2f~BG~2f~Term~2f~1201836290080362"
+        },
+        {
+          "id": "BG_Authorised_Representative://BG/Term/1201836290080362",
+          "association": "com.infa.ldm.bg.governedBgDescription",
+          "linkProperties": [
+            {
+              "attributeId": "core.targetAttribute",
+              "value": "com.infa.ldm.bg.governedBgDescription",
+              "label": "Target Attribute"
+            }
+          ],
+          "providerId": "enrichment",
+          "xid": "#Enrich#UK_8200_Extranet://ExtraNet/dbo/tbl_Agents/Net_Agency_Name",
+          "modifiedBy": "Native\\EdcAdmin",
+          "readOnly": true,
+          "name": "Agent Full Name",
+          "classType": "com.infa.ldm.bg.BGTerm",
+          "href": "/2/catalog/data/objects/BG_Authorised_Representative~3a~~2f~~2f~BG~2f~Term~2f~1201836290080362"
+        },
+        {
+          "id": "DataDomain://CompanyName",
+          "association": "com.infa.ldm.profiling.DataDomainColumnInferred",
+          "linkProperties": [
+            {
+              "attributeId": "core.targetAttribute",
+              "value": "com.infa.ldm.profiling.DataDomainColumnInferred",
+              "label": "Target Attribute"
+            }
+          ],
+          "providerId": "ProfileScanner",
+          "xid": "UK_8200_Extranet##dbo#tbl_Agents#DomainDiscovery",
+          "modifiedBy": "system",
+          "readOnly": true,
+          "name": "CompanyName",
+          "classType": "com.infa.ldm.profiling.DataDomain",
+          "href": "/2/catalog/data/objects/DataDomain~3a~~2f~~2f~CompanyName"
+        },
+        {
+          "id": "DataDomain://Age",
+          "association": "com.infa.ldm.profiling.DataDomainColumnInferred",
+          "linkProperties": [
+            {
+              "attributeId": "core.targetAttribute",
+              "value": "com.infa.ldm.profiling.DataDomainColumnInferred",
+              "label": "Target Attribute"
+            }
+          ],
+          "providerId": "ProfileScanner",
+          "xid": "UK_8200_Extranet##dbo#tbl_Agents#DomainDiscovery",
+          "modifiedBy": "system",
+          "readOnly": true,
+          "name": "Age",
+          "classType": "com.infa.ldm.profiling.DataDomain",
+          "href": "/2/catalog/data/objects/DataDomain~3a~~2f~~2f~Age"
+        },
+        {
+          "id": "DataDomain://CompanyName",
+          "association": "com.infa.ldm.profiling.DataDomainColumnAll",
+          "linkProperties": [
+            {
+              "attributeId": "com.infa.ldm.profiling.linkCreatedBy",
+              "value": "system",
+              "label": "link created by"
+            },
+            {
+              "attributeId": "com.infa.ldm.profiling.linkCreationTime",
+              "value": "2021-09-16T14:47:57.414Z",
+              "label": "link Creation Time"
+            },
+            {
+              "attributeId": "com.infa.ldm.profiling.linkOrigin",
+              "value": "profilescanner",
+              "label": "link origin"
+            },
+            {
+              "attributeId": "core.targetAttribute",
+              "value": "com.infa.ldm.profiling.DataDomainColumnAll",
+              "label": "Target Attribute"
+            }
+          ],
+          "providerId": "ProfileScanner",
+          "xid": "UK_8200_Extranet##dbo#tbl_Agents#DomainDiscovery",
+          "modifiedBy": "system",
+          "readOnly": true,
+          "name": "CompanyName",
+          "classType": "com.infa.ldm.profiling.DataDomain",
+          "href": "/2/catalog/data/objects/DataDomain~3a~~2f~~2f~CompanyName"
+        },
+        {
+          "id": "DataDomain://AgentFullName",
+          "association": "com.infa.ldm.profiling.DataDomainColumnAll",
+          "linkProperties": [
+            {
+              "attributeId": "com.infa.ldm.profiling.linkCreatedBy",
+              "value": "system",
+              "label": "link created by"
+            },
+            {
+              "attributeId": "com.infa.ldm.profiling.linkCreationTime",
+              "value": "2021-09-16T14:47:57.414Z",
+              "label": "link Creation Time"
+            },
+            {
+              "attributeId": "com.infa.ldm.profiling.linkOrigin",
+              "value": "profilescanner",
+              "label": "link origin"
+            },
+            {
+              "attributeId": "core.targetAttribute",
+              "value": "com.infa.ldm.profiling.DataDomainColumnAll",
+              "label": "Target Attribute"
+            }
+          ],
+          "providerId": "ProfileScanner",
+          "xid": "UK_8200_Extranet##dbo#tbl_Agents#DomainDiscovery",
+          "modifiedBy": "system",
+          "readOnly": true,
+          "name": "AgentFullName",
+          "classType": "com.infa.ldm.profiling.DataDomain",
+          "href": "/2/catalog/data/objects/DataDomain~3a~~2f~~2f~AgentFullName"
+        },
+        {
+          "id": "DataDomain://Age",
+          "association": "com.infa.ldm.profiling.DataDomainColumnAll",
+          "linkProperties": [
+            {
+              "attributeId": "com.infa.ldm.profiling.linkCreatedBy",
+              "value": "system",
+              "label": "link created by"
+            },
+            {
+              "attributeId": "com.infa.ldm.profiling.linkCreationTime",
+              "value": "2021-09-16T14:47:57.413Z",
+              "label": "link Creation Time"
+            },
+            {
+              "attributeId": "com.infa.ldm.profiling.linkOrigin",
+              "value": "profilescanner",
+              "label": "link origin"
+            },
+            {
+              "attributeId": "core.targetAttribute",
+              "value": "com.infa.ldm.profiling.DataDomainColumnAll",
+              "label": "Target Attribute"
+            }
+          ],
+          "providerId": "ProfileScanner",
+          "xid": "UK_8200_Extranet##dbo#tbl_Agents#DomainDiscovery",
+          "modifiedBy": "system",
+          "readOnly": true,
+          "name": "Age",
+          "classType": "com.infa.ldm.profiling.DataDomain",
+          "href": "/2/catalog/data/objects/DataDomain~3a~~2f~~2f~Age"
+        }
+      ],
+      "dstLinks": [
+        {
+          "id": "UK_8200_StrategicMI://StrategicMI/dbo/uvwEcommAgents/Net_Agency_Name",
+          "association": "core.DirectionalDataFlow",
+          "linkProperties": [],
+          "providerId": "MSSQLServerScanner",
+          "xid": "UK_8200_StrategicMI##${ExtraNet.dbo}#dbo#tbl_Agents#DATA_LINEAGE",
+          "modifiedBy": "system",
+          "readOnly": true,
+          "name": "Net_Agency_Name",
+          "classType": "com.infa.ldm.relational.ViewColumn",
+          "href": "/2/catalog/data/objects/UK_8200_StrategicMI~3a~~2f~~2f~StrategicMI~2f~dbo~2f~uvwEcommAgents~2f~Net_Agency_Name"
+        }
+      ],
+      "businessTerms": [
+        {
+          "id": "BG_Authorised_Representative://BG/Term/1201836290080362",
+          "name": null,
+          "readOnly": false,
+          "classType": "com.infa.ldm.bg.BGTerm"
+        }
+      ]
+    }
+  ]
+}
