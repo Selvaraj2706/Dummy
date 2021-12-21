@@ -1,0 +1,44 @@
+
+Non-Prod: EDC first call:
+
+https://pllod1mety0040l.alico.corp:9085/access/2/catalog/data/objects/UK_8200_Extranet~3a~~2f~~2f~ExtraNet~2f~dbo~2f~tblQuoteRole~2f~Effective_Date?q=(core.classType%3A(%22com.infa.ldm.relational.ViewColumn%22)%20OR%20core.classType%3A(%22com.infa.ldm.relational.Column%22))%20AND%20core.resourceName%3A(%22UK_8200_Extranet%22)&offset=0&pageSize=20000&includeSrcLinks=true&includeDstLinks=true&includeRefObjects=false
+
+
+Non-Prod: EDC second call:
+
+https://pllod1mety0040l.alico.corp:9085/access/2/catalog/data/objects/UK_8200_Extranet~3a~~2f~~2f~ExtraNet~2f~dbo~2f~tblQuoteRole~2f~Effective_Date?includeRefObjects=false
+
+
+========================
+
+Prod: EDC first call:
+
+https://pllod1metv0041l.alico.corp:9086/access/2/catalog/data/objects?q=(core.classType%3A(%22com.infa.ldm.relational.ViewColumn%22)%20OR%20core.classType%3A(%22com.infa.ldm.relational.Column%22))%20AND%20core.resourceName%3A(%22UK_8200_ExtraNet%22)&offset=0&pageSize=20000&includeSrcLinks=true&includeDstLinks=true&includeRefObjects=false
+
+
+Prod: EDC second call:
+
+https://pllod1metv0041l.alico.corp:9086/access/2/catalog/data/objects/UK_8200_ExtraNet~3a~~2f~~2f~ExtraNet~2f~dbo~2f~tblFirmLevelAccess~2f~IsRPQuotesAllowed?includeRefObjects=false
+
+==================================
+
+UK_10919_FlexPRD
+UK_10919_ClaimAdminPRD
+UK_10919_IPAdminPRD
+UK_10919_PRPMGUK01
+UK_10919_DolphinPolicyAdminPRD
+Ecomm:-
+UK_8200_ExtraNet
+UK_8200_IPSI
+UK_8200_ContractEnquiry
+Lumiere:-
+UK_10854_PRPMGUK01
+UK_10854_FlexPRD
+
+UK_10089_FATCA
+
+
+UK_10099_PRBPAUKML01
+
+UK_10099_PRBPAUKML01
+

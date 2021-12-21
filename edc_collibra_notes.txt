@@ -1,0 +1,29 @@
+
+
+
+spark-submit --master yarn --deploy-mode cluster --class ie.metlife.APP --principal appuserscv01@GDCQAALICO.CORP --keytab  /etc/security/keytabs/appuserscv01.headless.keytab --files  /usr/hdp/current/spark2-client/conf/hive-site.xml --conf "hadoop.security.authentication=kerberos" --conf "spark.kerberos.access.hadoopFileSystems=hdfs://PLLOD1METMGTP01.ALICO.CORP:8020,hdfs://pllod1metaptp01.alico.corp:8020,hdfs://pllod1metaptp02.alico.corp:8020" Spark_Poc_EDC.jar
+
+
+spark-submit --master yarn --deploy-mode cluster --class ie.metlife.APP --files  /usr/hdp/current/spark2-client/conf/hive-site.xml Spark_Poc_EDC.jar
+
+mzm9kgf$$LJCxUqs3D!5y7u
+
+appuserscv01@123
+
+
+spark-submit --class ie.metlife.APP --files  /usr/hdp/current/spark2-client/conf/hive-site.xml  Spark_Poc_EDC.jar
+
+
+spark-submit --driver-cores 4 --driver-memory 4G --num-executors 20 --executor-cores 10 --executor-memory 4G --class ie.metlife.APP --files  /usr/hdp/current/spark2-client/conf/hive-site.xml  Spark_Poc_EDC.jar
+
+spark-submit --driver-cores 4 --driver-memory 4G --num-executors 20 --executor-cores 10 --executor-memory 4G --class ie.metlife.APP --files  /usr/hdp/current/spark2-client/conf/hive-site.xml Spark_Poc_EDC.jar application.properties
+
+  
+  nn/_HOST@GDCQAALICO.CORP
+
+export HADOOP_CONF_DIR="/usr/hdp/2.6.5.0-292/hadoop/conf"
+
+export YARN_CONF_DIR="/usr/hdp/2.6.5.0-292/hadoop/conf"
+
+
+spark-submit --master  --conf "spark.yarn.keytab=/etc/security/keytabs/appuserscv01.headless.keytab" --conf "spark.yarn.principal=appuserscv01@GDCQAALICO.CORP" --class ie.metlife.APP Spark_Poc_EDC.jar
